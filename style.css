@@ -19,6 +19,8 @@ header{
     background-color: rgba(0, 0, 0, 0.692);
     width: 100vw;
     height: 50px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.418);
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.596);
     text-align: center;
 }
 
@@ -28,4 +30,40 @@ header a {
     width: 130px;
     font-size: 15px;
     text-decoration: none;
+}
+
+section#links{
+    
+    display: grid;
+    grid-template-rows: auto auto auto;
+    max-width: 65vw;
+    margin: 20px;
+    margin-top: 50px;
+    padding: 5%;
+    padding-top: 0;
+    text-align: justify;
+}
+
+ul.links{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px
+}
+
+li.link{
+
+}
+
+img.usuario{
+    min-width: 750px;
+    display: inline-block;
+    position: absolute;
+    right: 8vw;
+    top: 60px;
+    min-width: 20%;
+    height: 30%;
+    border: 2px solid black;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.37);
+    border-radius: 50%;
+    margin: 10px;
 }
