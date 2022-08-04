@@ -34,60 +34,61 @@
         
 
         <section class="imagen" id="img01">
-            <article>
+            <article class="biografia">
                 <h1>Sobre mi</h1>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ad laborum obcaecati tempora, amet assumenda eveniet tempore! Eum ut voluptates provident illum at porro incidunt, sunt aliquam consectetur, qui quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum possimus aspernatur libero voluptate quaerat quos est ab unde veniam atque, accusamus modi a veritatis animi dicta sed cupiditate numquam amet!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ad laborum obcaecati tempora, amet assumenda eveniet tempore! Eum ut voluptates provident illum at porro incidunt, sunt aliquam consectetur, qui quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum possimus aspernatur libero voluptate quaerat quos est ab unde veniam atque, accusamus modi a veritatis animi dicta sed cupiditate numquam amet! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum explicabo distinctio velit, mollitia quaerat enim architecto, beatae earum asperiores nisi pariatur numquam unde reiciendis provident maiores, eligendi sapiente fuga iure!
                 </p>
             </article>
         </section>
 
         <section class="normal">
             <h1>Skills</h1>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
+            <ul class="skills">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScrip</li>
             </ul>
         </section>
 
         <section class="imagen" id="img02">
             <h1>Hobbies</h1>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+            <ul class="hobbies">
+                <li>Escuchar musica</li>
+                <li>Jugar futbol</li>
+                <li>juegos en red</li>
+                <li>Bailar</li>
             </ul>
         </section>
 
         <section class="normal">
             <h1>Formacion Académica</h1>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
+            <ul class="formacion">
+                <li><a href="#">Alura Latam </a>(JavaScrip)</li>
+                <li><a href="#">Curso em Video </a> (HTML y CSS)</li>
+                <li><a href="#" >FIAP EAD </a> (Cursando Python)</li>
             </ul>   
         </section>
         <section class="imagen" id="img03">
             <h1>Experiencia profecional</h1>
-            <section>
-                <div>
+            <section class="exprofecional">
+                <div class="experiencia">
                     <h2>Juego creado con HTML Y JavaScrip</h2>
                     <p>
                         Challenge Oracle
                     </p>
-                    <a href="">Repositorio</a>
-                    <a href="">Ver demo</a>
+                    <div>
+                        <a href="#" class="ref">Repositorio</a>
+                        <a href="#" class="ref">Ver demo</a>
+                    </div>
                 </div>
                 <div>
-                    <iframe src="" frameborder="0"></iframe></div>
-                </section>
+                    <iframe src="" frameborder="0"></iframe>
+                <div>
+            </section>
         </section>
 
-        <section class="normal">
+        <section class="normal" id="contacto">
             <h1>Contacto</h1>
             <p>
                 Quieres contactarme?
@@ -95,25 +96,25 @@
             <p>
                 Complete el siguiente formulario y me pondre en contacto con Usted lo antes posible
             </p>
-            <form action="">
+            <form action="#" class="contacto" method="post">
                 <p>
-                    <label for="">nombre</label>
-                    <input type="text" name="" id="" placeholder="Andre lisboa">
+                    <label for="nome">Nombre:</label>
+                    <input type="text" name="" id="nome" placeholder="Andre lisboa">
                 </p>
                 <p>
-                    <label for="">Email</label>
-                    <input type="email" name="" id="" placeholder="andre.lisboa@alur">
+                    <label for="email">Email:</label>
+                    <input type="email" name="" id="email" placeholder="andre.lisboa@alur">
                 </p>
                 <p>
                    <input type="text" name="" id="" placeholder="Asunto"> 
                 </p>
-                <input type="submit" value="Enviar mensaje">
+                <input type="submit" value="Enviar mensaje" class="boton">
             </form>
         </section>
     </main>
     <footer>
         <p>
-            &copy; Desarrollado por Marco E.A.Esteban 2022
+            &copy; Desarrollado por Marco E.A.Esteban<br>2022
         </p>
         
     </footer>
