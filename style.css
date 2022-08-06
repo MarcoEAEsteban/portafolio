@@ -19,8 +19,7 @@ main{
     margin: auto;
     
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.406);
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+   
 }
 h1{
     font-size: 40px;
@@ -229,6 +228,7 @@ section#contacto{
 
 #contacto>p{
     margin: 5px;
+
 }
 form>p>label,input{
     margin: 5px;
@@ -243,6 +243,7 @@ form>p>label,input{
     display: flex;
     flex-direction: column;
     justify-items:self-end;
+    margin-top: 55px;
 }
 .boton{
     width: 200px;
@@ -274,7 +275,6 @@ section#img01{
     background-color: white;
     opacity: 80%;
     padding: 50px;
-    border-radius: 10px;
     
 }
 
@@ -308,11 +308,23 @@ section#img03{
    header a{
     font-size: 15px;
    }
+
+   img.usuario{
+    margin-top: 15px;
+   }
+   .historia{
+    flex-direction: column;
+   }
    #links img{
     top: 150px;
    }
+   #links p{
+    margin: 0px;
+    width: 80%;
+   }
    ul.links{
     font-size: 14px;
+    margin: 15px;
    }
    .biografia{
     padding: 10px;
@@ -343,10 +355,21 @@ section#img03{
     height: 0;
    }
    .contacto{
-    width: 100%;
-   }
-   form>p>label,input{
     width: 98%;
+    height: 400px;
+    margin-top: 25px;
+   }
+  
+   section#contacto{
+    font-size: 15px;
+    justify-self: self-end;
+    
+   }
+   
+   form>p>label, input{
+    height: 40px;
+    width: 90%;
+    margin-top: 20px;
    }
 }
 
