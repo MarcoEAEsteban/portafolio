@@ -19,14 +19,12 @@
 html, body{
     
     background-color: var(--color3);
-    
 }
 main{
     background-color: white;
     min-width: 300px;
     max-width: 1000px;
     margin: auto;
-    
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.406);
    
 }
@@ -196,6 +194,11 @@ ul.formacion{
     text-decoration: none;
 }
 
+.cursos{
+    width: 180px;
+    margin-top: 30px;
+}
+
 section.experiencia{
    
     display: flex;  
@@ -203,7 +206,6 @@ section.experiencia{
 
 section.espacio{
     width: 50vw;
-    
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -214,27 +216,26 @@ section.espacio{
 }
 
 div.campos{
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: var(--color4);
-    border-radius: 10px;
+    border-radius: 50%;
     text-align: center;
-    margin: 10px 20px;
+    margin: 20px 20px;
     padding: 10px;
-    width: 18vw;
-    height: 30vh;
-
+    width: 150px;
+    height: 150px;
 }
 
-.campos >p,.ref{
-    
+.campos>a{
     text-decoration: none;
-    padding: 5px;
-    margin: 20px; 
-    height: 20px;
+    font-size: 24px;
 }
 
 .pantalla{
     width: 50vw;
+    height: 1000px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -247,6 +248,7 @@ iframe{
     border-radius: 10px;
     width: 400px;
     height: 90%;
+    
 }
 
 section#contacto{
@@ -293,7 +295,7 @@ section#img01{
     border: 2px solid black;
     border-left: 0px;
     border-right: 0px;
-    box-shadow: 2px 2px 7px black;
+    box-shadow: 0px 2px 7px black;
     font-size: 1.2em;
     background-color: black;
     background-image: url("imagenes/fondo-ciudad.jpg");
@@ -313,7 +315,7 @@ section#img02{
     border: 2px solid rgba(0, 0, 0, 0.646);
     border-left: 0px;
     border-right: 0px;
-    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.722);
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.722);
     font-size: 1.5em;
     background-color: black;
     background-image: url("imagenes/fondo-ciudad.jpg");
@@ -327,7 +329,7 @@ section#img03{
     border: 2px solid rgba(0, 0, 0, 0.646);
     border-left: 0px;
     border-right: 0px;
-    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.722);
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.722);
     background-image: url("imagenes/fondo-ciudad.jpg");
     background-size: cover;
     width: 100%;
