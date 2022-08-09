@@ -219,7 +219,7 @@ div.campos{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--color4);
+    background-image: url("imagenes/fondo-azul.jpg");
     border-radius: 50%;
     text-align: center;
     margin: 20px 20px;
@@ -229,13 +229,15 @@ div.campos{
 }
 
 .campos>a{
+    
     text-decoration: none;
     font-size: 24px;
+    color: white;
 }
 
 .pantalla{
-    width: 50vw;
-    height: 1000px;
+    width: 70vw;
+    height: 800px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -361,6 +363,17 @@ section#img03{
    }
    .biografia{
     padding: 10px;
+   }
+
+   ul.skills{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+   ul.hobbies{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
    }
    .descripcion{
     text-align: center;
