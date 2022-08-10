@@ -280,6 +280,8 @@ div.campos{
 }
 
 .pantalla{
+    margin-top: 15vh;
+    opacity: 80%;
     width: 70vw;
     height: 800px;
     display: flex;
@@ -290,6 +292,9 @@ div.campos{
 
 }
 iframe{
+    background-image: url("imagenes/fondo-azul.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: var(--color3);
     border-radius: 10px;
     width: 400px;
