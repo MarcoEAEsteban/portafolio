@@ -20,6 +20,38 @@ html, body{
     
     background-color: var(--color3);
 }
+.scrolltop{
+    outline: none;
+    border: 0;
+    background-color: rgba(5, 5, 5, 0.685);
+    width: 60px;
+    height: 60px;
+    padding: 8px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.349), 0 2px 4px -1px rgba(0, 0, 0, 0.452);
+    z-index: 999;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .4s ease;
+
+}
+
+.scrolltop.active{
+    opacity: 1;
+    visibility: visible;
+}
+
+.scrolltop img{
+    width: 100%;
+    transform: rotate(90deg);
+}
 main{
     background-color: white;
     min-width: 300px;
@@ -127,6 +159,7 @@ section{
 ul.skills{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     padding: 30px;
     
@@ -152,6 +185,7 @@ ul.skills{
 ul.hobbies{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     padding: 30px;   
 }
@@ -179,6 +213,7 @@ ul.formacion{
     
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     padding: 30px;   
 }
@@ -321,11 +356,11 @@ section#img01{
     background-image: url("imagenes/fondo-ciudad.jpg");
     background-size: cover;
     width: 100%;
-    height: 500px;
     background-attachment: fixed;
 }
 .biografia{
     background-color: white;
+    border-radius: 10px;
     opacity: 80%;
     padding: 50px;
     
@@ -341,7 +376,6 @@ section#img02{
     background-image: url("imagenes/fondo-ciudad.jpg");
     background-size: cover;
     width: 100%;
-    height: 500px;
     background-attachment: fixed;
 }
 
