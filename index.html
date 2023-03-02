@@ -113,7 +113,7 @@
             <p>
                 Complete el siguiente formulario y me pondre en contacto con Usted lo antes posible
             </p>
-            <form action="#" class="contacto" method="post">
+            <form action="#" class="contacto" method="post" id="formulario">
                 <p>
                     <label for="nome">Nombre:</label>
                     <input type="text" name="" id="nome" placeholder="  Andre lisboa" required>
@@ -123,9 +123,10 @@
                     <input type="email" name="" id="email" placeholder="  andre.lisboa@alur" required>
                 </p>
                 <p>
-                   <input type="text" name="" id="" placeholder="  Asunto" required max="300"> 
+                   <input type="text" name="" id="asunto" placeholder="  digite '1' para contactarme" required max="300"> 
                 </p>
-                <input type="submit" value="Enviar mensaje" class="boton">
+                <input type="button" value="Enviar mensaje" class="boton" id="boton">
+                <div id="res"></div>
             </form>
         </section>
     </main>
@@ -135,19 +136,6 @@
         </p>
         
     </footer>
-    <script>
-        window.addEventListener('scroll', function(){
-            let scroll = document.querySelector('.scrolltop')
-                scroll.classList.toggle('active', window.scrollY > 400)
-        })
-
-        function backtop(){
-            window.scrollTo({
-                top: 0,
-                behavior: 'smooth'
-            })
-        }
-    </script>
-    
+    <script src="index.js"></script>
 </body>
 </html>

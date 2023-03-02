@@ -389,6 +389,10 @@ section#img03{
     background-attachment: fixed;
 }
 
+#res{
+    font-size: 15px;
+}
+
 @media screen and (max-width:480px) {
    header a{
     font-size: 15px;
